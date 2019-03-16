@@ -3,7 +3,7 @@
 The repo for the code lab session of JSLovers meet-up on 17th March 2019! :blush:
 The repository contains both the tests using ~~`Mocha`~~<sup>\*</sup> and `Jest`, however I prefer Node.js testing using `Mocha` when it comes to `MongoDB` & `Mongoose`
 
-[![Build Status](https://travis-ci.org/ashokdey/nodejs-unit-testing.svg?branch=step-4-ci-cd)](https://travis-ci.org/ashokdey/nodejs-unit-testing) [![Coverage Status](https://coveralls.io/repos/github/ashokdey/nodejs-unit-testing/badge.svg?branch=master)](https://coveralls.io/github/ashokdey/nodejs-unit-testing?branch=master)
+[![Build Status](https://travis-ci.org/ashokdey/nodejs-unit-testing.svg?branch=step-4-ci-cd)](https://travis-ci.org/ashokdey/nodejs-unit-testing) [![Coverage Status](https://coveralls.io/repos/github/ashokdey/nodejs-unit-testing/badge.svg?branch=master)](https://coveralls.io/github/ashokdey/nodejs-unit-testing?branch=step-4-ci-cd)
 
 ## Agenda
 
