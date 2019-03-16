@@ -37,6 +37,8 @@ after_success:
 - Choose markdown and paste the code in `README.md` 😍
 - In your local project repo, create a `.coveralls.yml`
 - Push the changes to GitHub
+- Note: Now go back to Coveralls.io, click on the project repo and scroll to the bottom
+- Click on `Refresh Button` to reflect the coverage changes in the `README`
 
 #### Example `.coveralls.yml` file
 
