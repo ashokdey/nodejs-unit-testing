@@ -36,6 +36,22 @@ after_success:
 - Scroll down further to get the Code Coverage Badge
 - Choose markdown and paste the code in `README.md` 😍
 - In your local project repo, create a `.coveralls.yml`
+  - Add the details of `.yml` file you saw in Coveralls repo details
+- Generating and sending report to Coveralls
+
+  - Generate the coverage report by adding `coverage` NPM script:
+
+  ```javascript
+  // add this inside the script section of `package.json`
+  "coverage": "jest --coverage",
+  ```
+
+  - Add one more NPM script `coveralls`
+
+  ```javascript
+  "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+  ```
+
 - Push the changes to GitHub
 - Note: Now go back to Coveralls.io, click on the project repo and scroll to the bottom
 - Click on `Refresh Button` to reflect the coverage changes in the `README`
