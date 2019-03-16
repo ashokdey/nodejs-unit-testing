@@ -9,7 +9,7 @@ const addCallback = (a, b, callback) => setTimeout(() => callback(null, a + b), 
 
 const addPromise = (a, b) => {
   if (typeof a !== 'number' || typeof b !== 'number') {
-    return Promise.reject('Invalid Argument');
+    return Promise.reject(new Error('Invalid Argument'));
   }
   return Promise.resolve(a + b);
 };
