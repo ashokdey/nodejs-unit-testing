@@ -1,6 +1,9 @@
 # Unit Testing in Node.js
 
 The repo for the code lab session of JSLovers meet-up on 17th March 2019! :blush:
+The repository contains both the tests using ~~`Mocha`~~<sup>\*</sup> and `Jest`, however I prefer Node.js testing using `Mocha` when it comes to `MongoDB` & `Mongoose`
+
+[![Build Status](https://travis-ci.org/ashokdey/nodejs-unit-testing.svg?branch=master)](https://travis-ci.org/ashokdey/nodejs-unit-testing)
 
 ## Agenda
 
@@ -12,6 +15,19 @@ The repo for the code lab session of JSLovers meet-up on 17th March 2019! :blush
 - Code Coverage
 - CI/CD
 
-The repository contains both the tests using `Mocha` and `Jest`, however I prefer Node.js testing using `Mocha` when it comes to `MongoDB`
+## A note on branches
 
-### To be updated
+I planned to carry out the workshop in 4 steps. hence you can find 4 extra branches for this repo. Each branch contains the codebase in progressive steps. Codebase is splitted into
+
+- Step 1: Testing Functions
+  - Normal Functions
+  - Callbacks Functions
+  - Promise Functions
+  - `async- await` Functions
+- Step 2: Testing Classes
+- Step 3: How about TDD?
+- Step 4: Let's setup CI/CD
+
+## Notes
+
+- <sup>\*</sup>Due to lack of time I dropped the idea of Mocha, let's see when I can publish Mocha stuff
