@@ -13,7 +13,7 @@ The repository contains both the tests using ~~`Mocha`~~<sup>\*</sup> and `Jest`
 - Unit Testing in Node.js
 - Test Driven Development
 - Code Coverage
-- CI/CD
+- CI/CD (Read the [Guide](Setup-For-CI.md))
 
 ## A note on branches
 
