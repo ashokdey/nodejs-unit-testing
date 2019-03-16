@@ -39,7 +39,7 @@ describe('Testing Add Module', () => {
             done(); // this is important
           })
           .catch((err) => {
-            expect(err).toEqual('Invalid Argument');
+            expect(err.message).toEqual('Invalid Argument');
             done();
             // Did you notice the code smell?
           });
@@ -60,7 +60,7 @@ describe('Testing Add Module', () => {
           const sum = await addPromise(2, '7');
           expect(sum).toEqual(9);
         } catch (err) {
-          expect(err).toEqual('Invalid Argument');
+          expect(err.message).toEqual('Invalid Argument');
         }
       });
     });
