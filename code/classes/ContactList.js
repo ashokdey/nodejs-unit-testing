@@ -1,4 +1,5 @@
 const User = require('./User');
+const { ErrorMessages } = require('./lib/consts');
 
 class ContactList {
   constructor() {
@@ -9,7 +10,7 @@ class ContactList {
     if (user instanceof User) {
       this.list.push(user);
     } else {
-      throw new Error('Invalid contact');
+      throw new Error(ErrorMessages.InvalidContact);
     }
   }
 
