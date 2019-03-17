@@ -31,3 +31,4 @@ I planned to carry out the workshop in 4 steps. hence you can find 4 extra branc
 ## Notes
 
 - <sup>\*</sup>Due to lack of time I dropped the idea of Mocha, let's see when I can publish Mocha stuff
+- [Link to the slides](https://docs.google.com/presentation/d/1s6HfL4GizW7f09Lq3mcA_k82x45tIV2Rh_MsIOLu0YE/edit?usp=sharing)
