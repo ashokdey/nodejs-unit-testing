@@ -18,7 +18,7 @@ describe('User Class', () => {
         john = new User({ firstName, mobile });
       });
 
-      it('Should not create an user without a name', () => {
+      it('Should not create an user without a first name', () => {
         expect(() => new User({ firstName: '', mobile })).toThrow(ErrorMessages.FirstNameRequired);
       });
 
