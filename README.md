@@ -5,6 +5,8 @@ The repository contains both the tests using ~~`Mocha`~~<sup>\*</sup> and `Jest`
 
 [![Build Status](https://travis-ci.org/ashokdey/nodejs-unit-testing.svg?branch=step-4-ci-cd)](https://travis-ci.org/ashokdey/nodejs-unit-testing) [![Coverage Status](https://coveralls.io/repos/github/ashokdey/nodejs-unit-testing/badge.svg?branch=step-4-ci-cd)](https://coveralls.io/github/ashokdey/nodejs-unit-testing?branch=step-4-ci-cd)
 
+![Intro Image](.github/0.png)
+
 ## Agenda
 
 - SDLC
